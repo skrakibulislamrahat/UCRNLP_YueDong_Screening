@@ -1,0 +1,10 @@
+{
+  "tag": "logo",
+  "init": "white.jpeg",
+  "target": "JBPieces_logo.png",
+  "model_id": "openai/clip-vit-large-patch14-336",
+  "lr": 0.05,
+  "epochs": 800,
+  "final_loss": 0.4568750858306885,
+  "timestamp": "2026-01-16T23:08:13.917155"
+}

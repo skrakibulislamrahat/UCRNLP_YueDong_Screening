@@ -1,0 +1,19 @@
+{
+  "run": "attack_run_2_ablation",
+  "tag": "solid_gray",
+  "target_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/solid_gray.png",
+  "init_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+  "model_id": "openai/clip-vit-large-patch14-336",
+  "device": "cuda",
+  "seed": 42,
+  "lr": 0.05,
+  "epochs": 300,
+  "final_loss": 0.42935359477996826,
+  "artifacts": {
+    "adv_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_solid_gray_adv.png",
+    "loss_pkl": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_solid_gray_loss.pkl",
+    "loss_curve": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_solid_gray_loss_curve.png",
+    "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_solid_gray_panel.png"
+  },
+  "timestamp": "2026-01-16 23:50:30"
+}

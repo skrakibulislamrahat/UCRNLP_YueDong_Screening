@@ -1,0 +1,15 @@
+{
+  "generated_at": "Fri Jan 16 07:40:31 2026",
+  "required_upload_files": {
+    "notebook_ipynb": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/05_submission/UCRNLP_JailbreakInPieces_Attack.ipynb",
+    "report_pdf": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/05_submission/UCRNLP_JailbreakInPieces_Report.pdf"
+  },
+  "outputs_dir": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/",
+  "repo_dir": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/01_repo/Jailbreak-In-Pieces",
+  "notes": [
+    "Baseline: CLIP similarity table + heatmap saved under 03_outputs/tables and 03_outputs/figures.",
+    "Attack Run 1: 800-epoch optimization on 4 safe targets saved under 03_outputs/attack_run_1 and figures/.",
+    "Ablation: same optimization with one knob changed (num_epochs=300) saved under 03_outputs/attack_run_2_ablation and figures/.",
+    "Report PDF built from saved artifacts; assets copied to 04_report/assets."
+  ]
+}

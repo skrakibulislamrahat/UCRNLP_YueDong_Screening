@@ -1,0 +1,20 @@
+{
+  "time_start": "Fri Jan 16 06:41:55 2026",
+  "time_end": "Fri Jan 16 06:46:41 2026",
+  "device": "cuda",
+  "model_id": "openai/clip-vit-large-patch14-336",
+  "target_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/nature.jpeg",
+  "init_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+  "hyperparams": {
+    "lr": 0.05,
+    "num_epochs": 800,
+    "log_every": 25
+  },
+  "artifacts": {
+    "loss_pkl": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_1/attack1_loss.pkl",
+    "loss_png": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/attack1_loss_curve.png",
+    "adv_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_1/attack1_adv_from_white_to_nature.png",
+    "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/attack1_panel_init_target_adv.png"
+  },
+  "final_loss": 0.27895793318748474
+}

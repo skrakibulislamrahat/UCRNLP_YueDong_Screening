@@ -1,0 +1,23 @@
+{
+  "qualitative_panels": {
+    "A1_checkerboard": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/attack1_checkerboard_panel.png",
+    "A2_nature": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/attack1_nature_panel.png",
+    "A3_solid_gray": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/attack1_solid_gray_panel.png",
+    "A4_circles": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/attack1_circles_panel.png"
+  },
+  "attack_run_1_failure": {
+    "tag": "circles",
+    "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/attack1_circles_panel.png",
+    "final_loss": 0.341625839471817
+  },
+  "ablation_failure": {
+    "tag": "circles",
+    "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_circles_panel.png",
+    "final_loss": 0.46902725100517273
+  },
+  "tables": {
+    "baseline": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/tables/baseline_summary.csv",
+    "attack_run_1": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/tables/attack_run_1_summary.csv",
+    "attack_run_2_ablation": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/tables/attack_run_2_ablation_summary.csv"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "time_start": "Fri Jan 16 07:22:28 2026",
+  "time_end": "Fri Jan 16 07:24:17 2026",
+  "device": "cuda",
+  "model_id": "openai/clip-vit-large-patch14-336",
+  "seed": 42,
+  "tag": "logo",
+  "target_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/JBPieces_logo.png",
+  "init_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+  "init_sha1": "67848e250c3f5490b483ba9c6e10cc8ba1fa248f",
+  "target_sha1": "bea221774f759a5ef3aac105ecf38df62e52d4d7",
+  "ablation_knob": {
+    "name": "num_epochs",
+    "value": 300,
+    "baseline_value": 800
+  },
+  "hyperparams": {
+    "lr": 0.05,
+    "num_epochs": 300,
+    "log_every": 50
+  },
+  "artifacts": {
+    "loss_pkl": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_logo_loss.pkl",
+    "loss_png": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_logo_loss_curve.png",
+    "adv_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_logo_adv.png",
+    "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_logo_panel.png"
+  },
+  "final_loss": 0.7555561065673828
+}

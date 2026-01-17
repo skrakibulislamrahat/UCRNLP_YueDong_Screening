@@ -1,0 +1,105 @@
+{
+  "run": "attack_run_2_ablation",
+  "timestamp": "2026-01-17 00:20:23",
+  "device": "cuda",
+  "seed": 42,
+  "model_id": "openai/clip-vit-large-patch14-336",
+  "init_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+  "epochs": 300,
+  "targets": [
+    {
+      "tag": "checkerboard",
+      "path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/checkerboard.png"
+    },
+    {
+      "tag": "nature",
+      "path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/nature.jpeg"
+    },
+    {
+      "tag": "solid_gray",
+      "path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/solid_gray.png"
+    },
+    {
+      "tag": "circles",
+      "path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/circles.png"
+    }
+  ],
+  "results": [
+    {
+      "run": "attack_run_2_ablation",
+      "tag": "checkerboard",
+      "target_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/checkerboard.png",
+      "init_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+      "model_id": "openai/clip-vit-large-patch14-336",
+      "device": "cuda",
+      "seed": 42,
+      "lr": 0.05,
+      "epochs": 300,
+      "final_loss": 0.40877091884613037,
+      "artifacts": {
+        "adv_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_checkerboard_adv.png",
+        "loss_pkl": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_checkerboard_loss.pkl",
+        "loss_curve": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_checkerboard_loss_curve.png",
+        "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_checkerboard_panel.png"
+      },
+      "timestamp": "2026-01-16 23:46:41"
+    },
+    {
+      "run": "attack_run_2_ablation",
+      "tag": "nature",
+      "target_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/nature.jpeg",
+      "init_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+      "model_id": "openai/clip-vit-large-patch14-336",
+      "device": "cuda",
+      "seed": 42,
+      "lr": 0.05,
+      "epochs": 300,
+      "final_loss": 0.43750134110450745,
+      "artifacts": {
+        "adv_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_nature_adv.png",
+        "loss_pkl": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_nature_loss.pkl",
+        "loss_curve": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_nature_loss_curve.png",
+        "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_nature_panel.png"
+      },
+      "timestamp": "2026-01-16 23:48:36"
+    },
+    {
+      "run": "attack_run_2_ablation",
+      "tag": "solid_gray",
+      "target_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/solid_gray.png",
+      "init_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+      "model_id": "openai/clip-vit-large-patch14-336",
+      "device": "cuda",
+      "seed": 42,
+      "lr": 0.05,
+      "epochs": 300,
+      "final_loss": 0.42935359477996826,
+      "artifacts": {
+        "adv_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_solid_gray_adv.png",
+        "loss_pkl": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_solid_gray_loss.pkl",
+        "loss_curve": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_solid_gray_loss_curve.png",
+        "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_solid_gray_panel.png"
+      },
+      "timestamp": "2026-01-16 23:50:30"
+    },
+    {
+      "run": "attack_run_2_ablation",
+      "tag": "circles",
+      "target_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/circles.png",
+      "init_path": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+      "model_id": "openai/clip-vit-large-patch14-336",
+      "device": "cuda",
+      "seed": 42,
+      "lr": 0.05,
+      "epochs": 300,
+      "final_loss": 0.46902725100517273,
+      "artifacts": {
+        "adv_image": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_circles_adv.png",
+        "loss_pkl": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/attack_run_2_ablation/ablation_circles_loss.pkl",
+        "loss_curve": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_circles_loss_curve.png",
+        "panel": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/ablation_circles_panel.png"
+      },
+      "timestamp": "2026-01-16 23:52:22"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "run": "baseline_clip_similarity",
+  "timestamp": "2026-01-17 00:20:16",
+  "device": "cuda",
+  "model_id": "openai/clip-vit-large-patch14-336",
+  "samples": [
+    "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/checkerboard.png",
+    "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/nature.jpeg",
+    "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/solid_gray.png",
+    "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/white.jpeg",
+    "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/baseline/samples/circles.png"
+  ],
+  "n_samples": 5,
+  "avg_offdiag_cosine": 0.7385574579238892,
+  "max_offdiag_cosine": 0.9579962491989136,
+  "min_offdiag_cosine": 0.6292632222175598,
+  "artifacts": {
+    "csv": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/tables/baseline_clip_cosine_similarity.csv",
+    "heatmap": "/content/drive/MyDrive/UCRNLP_YueDong_Screening/03_outputs/figures/baseline_clip_similarity_heatmap.png"
+  }
+}
